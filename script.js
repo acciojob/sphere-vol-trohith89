@@ -5,6 +5,7 @@ function volume_sphere(){
 	document.getElementById("volume").innerHTML = "ans";
 	
 }
+document.getElementById("volume").innerHTML="";
 document.getElementById("submit").addEventListener("click", volume_sphere());
 
 window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
